@@ -1,0 +1,28 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/actionbar_backmove"
+        android:orderInCategory="1"
+        android:icon="@drawable/backmove"
+        android:title="@string/actionbar_backmove"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/actionbar_settings"
+        android:orderInCategory="2"
+        android:icon="@drawable/settings"
+        android:title="@string/actionbar_settings"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/actionbar_savegame"
+        android:orderInCategory="3"
+        android:icon="@drawable/savegame"
+        android:title="@string/actionbar_savegame"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/actionbar_exitgame"
+        android:orderInCategory="4"
+        android:icon="@drawable/exitgame"
+        android:title="@string/actionbar_exitgame"
+        app:showAsAction="always" />
+</menu>

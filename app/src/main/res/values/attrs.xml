@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BoardSquare">
+        <attr name="rowIndex" format="integer"/>
+        <attr name="columnIndex" format="integer"/>
+    </declare-styleable>
+</resources>

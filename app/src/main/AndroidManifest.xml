@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.checkers">
+
+    <application
+        android:name=".Othermode.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".IndependentActivities.SelectOptionsActivity" />
+        <activity android:name=".IndependentActivities.ResultsActivity" />
+        <activity
+            android:name=".IndependentActivities.SelectMode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IndependentActivities.StartupScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IndependentActivities.OfflineGameSelectScreen"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GameComponents.BoardDisplay"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IndependentActivities.OnlineGameSelectScreen"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".Othermode.GameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Othermode.PreferencesActivity"
+            android:label="@string/label_PreferencesActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".Othermode.NewSavedGameActivity"
+            android:label="@string/label_NewSavedGameActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".Othermode.LoadGameActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="@string/label_LoadGameActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

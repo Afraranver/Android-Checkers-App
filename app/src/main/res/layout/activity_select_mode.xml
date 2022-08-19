@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/select_player"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".IndependentActivities.SelectMode">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <Button
+        android:id="@+id/btnSinglePlayer"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/roundcorners"
+        android:text="SINGLE PLAYER"
+        android:textColor="#916C6C" />
+
+    <Button
+        android:id="@+id/btnMultiplePlayer"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundcorners"
+        android:text="MULTIPLE PLAYER"
+        android:textColor="#916C6C" />
+
+    <ImageView
+        android:id="@+id/imgResults"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="150dp"
+        android:visibility="visible" />
+
+</LinearLayout>
